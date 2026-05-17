@@ -208,4 +208,4 @@ with col_warn2:
     if (res_df['status'] == 'OVERLOAD').any():
         st.warning("⚠️ มีเสาเข็มรับน้ำหนักเกินกำลัง (Overload) กรุณาพิจารณาขยายฐานรากหรือเพิ่มเข็มแซม")
     if (res_df['status'] == 'UPLIFT').any():
-        st.warning("⚠️ ตรวจพบแรงดึง (Uplift) ในเสาเข็ม กรุณาตรวจสอบรอยต่อหัวเข็ม") ฆ
+        st.warning("⚠️ ตรวจพบแรงดึง (Uplift) ในเสาเข็ม กรุณาตรวจสอบรอยต่อหัวเข็ม") 
